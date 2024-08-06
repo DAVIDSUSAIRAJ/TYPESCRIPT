@@ -289,8 +289,44 @@
     // type UserName = string;
     // type Age = number;
     // type YesOrNo = boolean;
-    let nameAndAge = ["david", 28];
+    // let userName:UserName = "David"
+    // let age:Age = 28;
+    // let isAlive:YesOrNo = false;
+    //ARRY alias
+    // type NamesArray = string[];
+    // let namesArray:NamesArray  = ["David","Senthil","Gajendran"];
+    //Object alias
+    // type Person = {
+    //   name:string,
+    //   age: number,
+    //   isAlive:boolean,
+    // }
+    // let person:Person = {
+    //   name:"david",
+    //   age:26,
+    //   isAlive:true,
+    // }
+    //Union alias
+    // type StrOrNo = string | number
+    // let errrorStatuscode:StrOrNo  = "401";
+    // errrorStatuscode = 401
+    //NAMED TUPLE ALIAS
+    //  type NameAndAge = [name:string,age:number]
+    //  let nameAndAge:NameAndAge = ["david",28]
     //CHAPTER-8-END
+    //CHAPTER-9-START//
+    //TYPE CASTING with UNKNOWN TYPE// as or <>//as only high priority
+    // let firstName:unknown = "string"
+    //  console.log(firstName.length())//it will throw the compile error, then i changed the type not value
+    //  let getLen = firstName as string;
+    // console.log(getLen.length,"getLength")
+    //  let getLength = <string>firstName;
+    //  console.log(getLength.length,"getLength")
+    //DOM ACCESS
+    // let inputElement = document.querySelector("input") as HTMLInputElement
+    // let val = inputElement.value// error will throw without as keyword
+    // console.log(val,"val")
+    //CHAPTER-9-END
     ///another file
     //start//Object Implicit Types
     // let person = {
