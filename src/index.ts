@@ -236,15 +236,13 @@
   // };
   // let result = add(1, 2,5);
   // console.log(result, "result");
-
   //  function with default value
   // let add = (a: number, b: number, c: number = 10): number => {
   //    return a+b+c;
   // };
   // let result = add(1, 2);
-
-    //  function with type alias params
-    // 1);
+  //  function with type alias params
+  // 1);
   //   type StrOrNumberTypeAlias = (string | number);
   //   let add = (a: number, b: number, c:StrOrNumberTypeAlias): number => {
   //     if(typeof c === "string"){
@@ -252,26 +250,19 @@
   //     }return a+b+c
   //  };
   //  let result = add(1, 2,"555");
-
   // 2);
   // type consoleObjectTypeAlias = {name:string,age:number}
   //   let consoleObject = (user:consoleObjectTypeAlias) => {
   //     console.log(user,"userObject")
-
   //  };
   //  let result = consoleObject({name:"david",age:28});
-
   //  3); // rest params
   //  let restParamfunction = (a:number,b:number,...rest:number[])=>{
   //   console.log(rest,"restParams")
   //  }
-
   //  restParamfunction(1,2,3,4,5);
-
   //explicit//end
   //CHAPTER-6-END
-
-
   ///another file
   //start//Object Implicit Types
   // let person = {
