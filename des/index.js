@@ -284,6 +284,13 @@
     // let [name,age,isAlive] = userNamedTuple;
     // console.log(name,age,isAlive,"userNamedTuple")
     //CHAPTER-7-END
+    //CHAPTER-8-START
+    //TYPE ALIAS
+    // type UserName = string;
+    // type Age = number;
+    // type YesOrNo = boolean;
+    let nameAndAge = ["david", 28];
+    //CHAPTER-8-END
     ///another file
     //start//Object Implicit Types
     // let person = {
