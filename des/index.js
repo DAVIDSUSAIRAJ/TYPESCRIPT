@@ -263,6 +263,27 @@
     //  restParamfunction(1,2,3,4,5);
     //explicit//end
     //CHAPTER-6-END
+    //CHAPTER-7-START
+    //tuples or typed Array
+    //array//implicit
+    //  let userArray = ["Doe",25,true];
+    //  userArray[0] = 55;//here we can
+    //explicit
+    //  let userTuple:[string,number,boolean] = ["Doe",25,true];
+    //  userTuple[0] = 55;//here we cannot,because the type is different;
+    //  userTuple.push(555)
+    //  console.log(userTuple, "userTuple")[("Doe", 25, true, 555)];
+    //  how can we avoid it, the push(555),we can use readonly
+    //  READ ONLY tuple
+    //  let userTuple:readonly[string,number,boolean] = ["Doe",25,true];
+    //  userTuple.push("555")
+    // console.log(userTuple[0])
+    // NAMED TUPLE
+    // let userNamedTuple:readonly[name:string,age:number,isAlive:boolean] = ["Doe",25,true];
+    // ACCESS NAMED TUPLE
+    // let [name,age,isAlive] = userNamedTuple;
+    // console.log(name,age,isAlive,"userNamedTuple")
+    //CHAPTER-7-END
     ///another file
     //start//Object Implicit Types
     // let person = {
