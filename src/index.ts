@@ -327,6 +327,57 @@
   // let val = inputElement.value// error will throw without as keyword
   // console.log(val,"val")
   //CHAPTER-9-END
+
+//CHAPTER-10-START
+
+//ENUM-GROUP OF CONSTANT
+// enum - number
+//  enum StatusCode {
+//   SUCCESS = 200,
+//   BAD_REQUEST = 400,
+//   NOT_FOUND = 404,
+//   INTERNAL_SERVER_ERROR = 500,
+// }
+//  console.log(StatusCode.SUCCESS)
+//  console.log(StatusCode.NOT_FOUND)
+//  console.log(StatusCode.BAD_REQUEST)
+//  console.log(StatusCode.INTERNAL_SERVER_ERROR)
+// ENUM-STRING
+//  enum StatusCode {
+//   SUCCESS = "success",
+//   BAD_REQUEST = "badRequest", 
+//   NOT_FOUND = "notFound", 
+//   INTERNAL_SERVER_ERROR = "internalServerError", 
+// }
+//  console.log(StatusCode.SUCCESS)
+//  console.log(StatusCode.NOT_FOUND)
+//  console.log(StatusCode.BAD_REQUEST)
+//  console.log(StatusCode.INTERNAL_SERVER_ERROR)
+// // ENUM-INDEX
+//       enum Direction  {
+//   UP ,
+//   DOWN ,
+//   LEFT ,
+//   RIGHT,
+// }
+//  console.log(Direction.UP)
+//  console.log(Direction.DOWN)
+//  console.log(Direction.LEFT)
+//  console.log(Direction.RIGHT)
+
+// // ENUM-MIXED- start form first Number
+//  enum StatusCode {
+//   SUCCESS = 200,
+//   BAD_ 
+//  }
+//  console.log(StatusCode.BAD_,"StatusCode.BAD_")
+//CHAPTER-10-END
+
+
+
+
+
+
   ///another file
   //start//Object Implicit Types
   // let person = {
