@@ -550,20 +550,6 @@
     // employee.getDetails();
     // employee.getDetails1();
     // employee.getDetails2(5);
-    // 4.)
-    class Animal {
-        move() {
-            return 55;
-        }
-    }
-    class Dog extends Animal {
-        makeSound() {
-            console.log("Bark");
-        }
-    }
-    const myDog = new Dog();
-    myDog.makeSound(); // Output: Bark
-    console.log(myDog.move()); // Output: Moving...
     //CHAPTER-13-END
     ///another file
     //start//Object Implicit Types
