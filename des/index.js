@@ -343,9 +343,9 @@
     // ENUM-STRING
     //  enum StatusCode {
     //   SUCCESS = "success",
-    //   BAD_REQUEST = "badRequest", 
-    //   NOT_FOUND = "notFound", 
-    //   INTERNAL_SERVER_ERROR = "internalServerError", 
+    //   BAD_REQUEST = "badRequest",
+    //   NOT_FOUND = "notFound",
+    //   INTERNAL_SERVER_ERROR = "internalServerError",
     // }
     //  console.log(StatusCode.SUCCESS)
     //  console.log(StatusCode.NOT_FOUND)
@@ -365,7 +365,7 @@
     // // ENUM-MIXED- start form first Number
     //  enum StatusCode {
     //   SUCCESS = 200,
-    //   BAD_ 
+    //   BAD_
     //  }
     //  console.log(StatusCode.BAD_,"StatusCode.BAD_")
     // // ENUM-MIXED-STRING start form first string and we have to mention the all the keys
@@ -375,6 +375,44 @@
     //  }
     //  console.log(StatusCode.BAD_,"StatusCode.BAD_")
     //CHAPTER-10-END
+    //CHAPTER-11-START
+    //INTERFACE-OOP-ONLY WORK WITH OBJECTS CONCEPT-SET OF RULES WE NEED TO DEFINED//
+    // interface Person {
+    //   name: string;
+    //   age: number;
+    // }
+    // let person:Person = {
+    //   name: "John",
+    //   age: 30
+    // };
+    //INTERFACE FUNCTION
+    // interface Func {
+    //   (a: number, b: number): number;//this is signature function
+    // }
+    // let add: Func = (a: number, b: number) => {
+    //   return a + b;//here we add the logic//the same interface we can use in subtraction
+    // };
+    // console.log(add(2, 3)); // Output: 5
+    //EXTENDING INTERFACE
+    // interface Person {
+    //   name:string,
+    //   age:number
+    // }
+    // interface Employee extends Person{
+    //   department:string
+    // }
+    // let employee:Employee = {
+    //   name:"John",
+    //   age:26,
+    //   department:"IT"
+    // }
+    // console.log(employee,"employees")
+    // TYPE CANNOT BE REPLCED WITH INTERFACE
+    // type StrOrNo = string | number
+    //   let errrorStatuscode:StrOrNo  = "401";
+    //   errrorStatuscode = 401
+    // inferface StrOrNo = string | number   //it will throw error, bcause interface is not a type
+    //CHAPTER-11-END
     ///another file
     //start//Object Implicit Types
     // let person = {

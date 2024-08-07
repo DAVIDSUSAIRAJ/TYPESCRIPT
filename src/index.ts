@@ -327,64 +327,92 @@
   // let val = inputElement.value// error will throw without as keyword
   // console.log(val,"val")
   //CHAPTER-9-END
-
-//CHAPTER-10-START
-
-//ENUM-GROUP OF CONSTANT
-// enum - number
-//  enum StatusCode {
-//   SUCCESS = 200,
-//   BAD_REQUEST = 400,
-//   NOT_FOUND = 404,
-//   INTERNAL_SERVER_ERROR = 500,
-// }
-//  console.log(StatusCode.SUCCESS)
-//  console.log(StatusCode.NOT_FOUND)
-//  console.log(StatusCode.BAD_REQUEST)
-//  console.log(StatusCode.INTERNAL_SERVER_ERROR)
-// ENUM-STRING
-//  enum StatusCode {
-//   SUCCESS = "success",
-//   BAD_REQUEST = "badRequest", 
-//   NOT_FOUND = "notFound", 
-//   INTERNAL_SERVER_ERROR = "internalServerError", 
-// }
-//  console.log(StatusCode.SUCCESS)
-//  console.log(StatusCode.NOT_FOUND)
-//  console.log(StatusCode.BAD_REQUEST)
-//  console.log(StatusCode.INTERNAL_SERVER_ERROR)
-// // ENUM-INDEX
-//       enum Direction  {
-//   UP ,
-//   DOWN ,
-//   LEFT ,
-//   RIGHT,
-// }
-//  console.log(Direction.UP)
-//  console.log(Direction.DOWN)
-//  console.log(Direction.LEFT)
-//  console.log(Direction.RIGHT)
-
-// // ENUM-MIXED- start form first Number
-//  enum StatusCode {
-//   SUCCESS = 200,
-//   BAD_ 
-//  }
-//  console.log(StatusCode.BAD_,"StatusCode.BAD_")
-
-// // ENUM-MIXED-STRING start form first string and we have to mention the all the keys
-//  enum StatusCode {
-//   SUCCESS = "success",
-//   BAD_ //it will thro en error
-//  }
-//  console.log(StatusCode.BAD_,"StatusCode.BAD_")
-//CHAPTER-10-END
-
-
-
-
-
-
+  //CHAPTER-10-START
+  //ENUM-GROUP OF CONSTANT
+  // enum - number
+  //  enum StatusCode {
+  //   SUCCESS = 200,
+  //   BAD_REQUEST = 400,
+  //   NOT_FOUND = 404,
+  //   INTERNAL_SERVER_ERROR = 500,
+  // }
+  //  console.log(StatusCode.SUCCESS)
+  //  console.log(StatusCode.NOT_FOUND)
+  //  console.log(StatusCode.BAD_REQUEST)
+  //  console.log(StatusCode.INTERNAL_SERVER_ERROR)
+  // ENUM-STRING
+  //  enum StatusCode {
+  //   SUCCESS = "success",
+  //   BAD_REQUEST = "badRequest",
+  //   NOT_FOUND = "notFound",
+  //   INTERNAL_SERVER_ERROR = "internalServerError",
+  // }
+  //  console.log(StatusCode.SUCCESS)
+  //  console.log(StatusCode.NOT_FOUND)
+  //  console.log(StatusCode.BAD_REQUEST)
+  //  console.log(StatusCode.INTERNAL_SERVER_ERROR)
+  // // ENUM-INDEX
+  //       enum Direction  {
+  //   UP ,
+  //   DOWN ,
+  //   LEFT ,
+  //   RIGHT,
+  // }
+  //  console.log(Direction.UP)
+  //  console.log(Direction.DOWN)
+  //  console.log(Direction.LEFT)
+  //  console.log(Direction.RIGHT)
+  // // ENUM-MIXED- start form first Number
+  //  enum StatusCode {
+  //   SUCCESS = 200,
+  //   BAD_
+  //  }
+  //  console.log(StatusCode.BAD_,"StatusCode.BAD_")
+  // // ENUM-MIXED-STRING start form first string and we have to mention the all the keys
+  //  enum StatusCode {
+  //   SUCCESS = "success",
+  //   BAD_ //it will thro en error
+  //  }
+  //  console.log(StatusCode.BAD_,"StatusCode.BAD_")
+  //CHAPTER-10-END
+  //CHAPTER-11-START
+  //INTERFACE-OOP-ONLY WORK WITH OBJECTS CONCEPT-SET OF RULES WE NEED TO DEFINED//
+  // interface Person {
+  //   name: string;
+  //   age: number;
+  // }
+  // let person:Person = {
+  //   name: "John",
+  //   age: 30
+  // };
+  //INTERFACE FUNCTION
+  // interface Func {
+  //   (a: number, b: number): number;//this is signature function
+  // }
+  // let add: Func = (a: number, b: number) => {
+  //   return a + b;//here we add the logic//the same interface we can use in subtraction
+  // };
+  // console.log(add(2, 3)); // Output: 5
+  //EXTENDING INTERFACE
+  // interface Person {
+  //   name:string,
+  //   age:number
+  // }
+  // interface Employee extends Person{
+  //   department:string
+  // }
+  // let employee:Employee = {
+  //   name:"John",
+  //   age:26,
+  //   department:"IT"
+  // }
+  // console.log(employee,"employees")
+  // TYPE CANNOT BE REPLCED WITH INTERFACE
+  // type StrOrNo = string | number
+  //   let errrorStatuscode:StrOrNo  = "401";
+  //   errrorStatuscode = 401
+  // inferface StrOrNo = string | number   //it will throw error, bcause interface is not a type
+  //CHAPTER-11-END
   ///another file
   //start//Object Implicit Types
   // let person = {
