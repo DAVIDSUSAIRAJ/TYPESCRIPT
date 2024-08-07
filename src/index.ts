@@ -567,6 +567,50 @@
 
 
 
+
+//another file//
+//START//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
+//ABSTRACT CLASS
+// 1)ABSTRACT CLASS CAN HAVE ABSTRACT PROPERTY AND ABSTRACT FUNCTION
+//  EX:
+// abstract class Animal {
+//   abstract makeSound(): void; // Abstract method
+
+//   move(): void {
+//       console.log("Moving...");
+//   }
+// }
+
+// class Dog extends Animal {
+//   makeSound(): void {
+//       console.log("Bark");
+//   }
+// }
+
+// const myDog = new Dog();
+// myDog.makeSound(); // Output: Bark
+// myDog.move(); // Output: Moving...
+
+//2) INTERFACE CAN NOT HAVE ABSTRACT PROPERTY AND ABSTRACT FUNCTION
+// 2.1) WE CANNOT USE CONSTRUCTOR IN INTERFACE
+//  EX:
+// interface Animal {
+//   makeSound(): void;
+// }
+
+// class Dog implements Animal {
+//   makeSound(): void {
+//       console.log("Bark");
+//   }
+// }
+
+// const myDog = new Dog();
+// myDog.makeSound(); // Output: Bark
+
+//END//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
+
+
+
   ///another file
   //start//Object Implicit Types
   // let person = {
