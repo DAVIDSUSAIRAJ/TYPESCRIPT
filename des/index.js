@@ -481,6 +481,43 @@
     // }
     // let userDetailsObject = new UserDetails(5,"david",26,"chennai");
     //CHAPTER-12-END
+    //CHAPTER-13-START
+    //ABSTRACT CLASS-INCOMPLETE CLASS
+    // 1);
+    // abstract class Person {
+    //   name: string;
+    //   constructor(name: string) {
+    //     this.name = name;
+    //   }
+    //   abstract getDetails(): void;
+    // }
+    // class Employee extends Person {
+    //   getDetails = ()=>{
+    //     console.log(`Name: ${this.name}`);
+    //   }
+    // }
+    // let employee  = new Employee("John",);
+    // console.log(employee.getDetails());
+    // 2);
+    // abstract class Person {
+    //   abstract name: string;//property abstract
+    //   abstract getDetails(): void;//function abstract
+    // }
+    // class Employee extends Person {
+    //   name: string;
+    //   constructor(nameparam:string){
+    //     super()
+    //     this.name = nameparam
+    //   }
+    //   getDetails = ()=>{
+    //     console.log(`Name: ${this.name}`);
+    //   }
+    // }
+    // let employee  = new Employee("John",);
+    // console.log(typeof(employee.name),"empleoo")
+    // console.log(employee.getDetails());
+    // console.log("davidiii")
+    //CHAPTER-13-END
     ///another file
     //start//Object Implicit Types
     // let person = {
@@ -508,7 +545,7 @@
     //   age: 30
     // };
     // Optional Properties
-    // Using an Interface
+    // Using an Interface// start//
     // interface Person {
     //   name: string;
     //   age?: number; // age is optional
@@ -520,6 +557,7 @@
     //   name: "Jane",
     //   age: 25
     // };
+    // Using an Interface// end//
     // Using a Type Alias
     // type Person = {
     //   name: string;
