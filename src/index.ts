@@ -371,6 +371,13 @@
 //   BAD_ 
 //  }
 //  console.log(StatusCode.BAD_,"StatusCode.BAD_")
+
+// // ENUM-MIXED-STRING start form first string and we have to mention the all the keys
+//  enum StatusCode {
+//   SUCCESS = "success",
+//   BAD_ //it will thro en error
+//  }
+//  console.log(StatusCode.BAD_,"StatusCode.BAD_")
 //CHAPTER-10-END
 
 
