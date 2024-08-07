@@ -584,6 +584,11 @@
     // const myDog = new Dog();
     // myDog.makeSound(); // Output: Bark
     //END//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
+    // DATA MODIFIERS
+    // PUBLIC-3
+    // PROTECTED-2
+    // //PRIVATE-1
+    // // READONLY- ONE TIME ONLY ASSINED WITH CONSTRUCTOR
     ///another file
     //start//Object Implicit Types
     // let person = {
