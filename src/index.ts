@@ -491,13 +491,16 @@
 //   constructor(name: string) {
 //     this.name = name;
 //   }
-//   abstract getDetails(): void;
+//   abstract getDetails(): number;
 // }
 // class Employee extends Person {
 //   getDetails = ()=>{
 //     console.log(`Name: ${this.name}`);
+//     return 10
+
 
 //   }
+
 // }
 
 // let employee  = new Employee("John",);
@@ -507,26 +510,58 @@
 // abstract class Person {
 //   abstract name: string;//property abstract
 //   abstract getDetails(): void;//function abstract
+
+//   getDetails2():void{
+//  console.log(`${this.name}`)
+//   }
 // }
 // class Employee extends Person {
 //   name: string;
 //   constructor(nameparam:string){
 //     super()
 //     this.name = nameparam
-
 //   }
 //   getDetails = ()=>{
 //     console.log(`Name: ${this.name}`);
-
+//   }
+//   getDetails1 = ()=>{
+//     console.log(`Name: ${this.name}`);
 //   }
 // }
 
 // let employee  = new Employee("John",);
-// console.log(typeof(employee.name),"empleoo")
-// console.log(employee.getDetails());
-// console.log("davidiii")
+// employee.getDetails();
+// employee.getDetails1();
+// employee.getDetails2();
 
+// 3);
+// abstract class Person {
+//   abstract name: string; //property abstract
+//   abstract getDetails(): void; //function abstract
 
+//   getDetails2(n:number): void {
+//     console.log(n,"nnnn")
+//     console.log(`${this.name}`);
+//   }
+// }
+// class Employee extends Person {
+//   name: string;
+//   constructor(nameparam: string,numParam:number) {
+//     super();
+//     this.name = nameparam;
+//   }
+//   getDetails = () => {
+//     console.log(`Name: ${this.name}`);
+//   };
+//   getDetails1 = () => {
+//     console.log(`Name: ${this.name}`);
+//   };
+// }
+
+// let employee = new Employee("John",5);
+// employee.getDetails();
+// employee.getDetails1();
+// employee.getDetails2(5);
 
 //CHAPTER-13-END
 
