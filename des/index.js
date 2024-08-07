@@ -413,6 +413,74 @@
     //   errrorStatuscode = 401
     // inferface StrOrNo = string | number   //it will throw error, bcause interface is not a type
     //CHAPTER-11-END
+    //CHAPTER-12-START
+    //CLASS
+    //simple class
+    // class User1 {
+    //   id: number;
+    //   constructor(x:number) {
+    //     this.id = x;
+    //   }
+    // }
+    // let userObject = new User1(5);
+    // console.log(userObject.id, "userObject");
+    //simple class with default value
+    // class User {
+    //   id: number;
+    //   constructor(x:number = 10) {
+    //     this.id = x;
+    //   }
+    // }
+    // let userObject = new User();
+    // console.log(userObject.id, "userObject");
+    // INTERFACE
+    //   interface PersonInterface {
+    //   name: string;
+    //   age: number;
+    // }
+    // interface AddressInterface {
+    //      address:string
+    // }
+    //WE CAN ADD SINGEL INTERFACE IN CLASS
+    // class User implements PersonInterface {
+    //   name: string;
+    //   age: number;
+    //   constructor(y:string,z:number) {
+    //     this.name = y;
+    //     this.age = z;
+    //   }
+    // }
+    // let userObject = new User("david",26);
+    // console.log(userObject.name,userObject.age,"userObject");
+    //WE CAN ADD MULTIPLE INTERFACE IN CLASS
+    // class User implements PersonInterface,AddressInterface {
+    //   id: number;
+    //   name: string;
+    //   age: number;
+    //   address:string
+    //   constructor(x:number,y:string,z:number,a:string) {
+    //     this.id = x;
+    //     this.name = y;
+    //     this.age = z;
+    //     this.address = a
+    //   }
+    // }
+    // let userObject = new User(5,"david",26,"chennai");
+    //CLASS EXTENDS
+    // class UserDetails extends User {
+    //   constructor(x:number,y:string,z:number,a:string) {
+    //     super(x,y,z,a)
+    //   }
+    // }
+    // let userDetailsObject = new UserDetails(5,"david",26,"chennai");
+    // WE CAN NOT USE MULTIPLE EXTENDS, eXAMPLE BELOW
+    // class UserDetails extends User,User1 {//it will throw error
+    //   constructor(x:number,y:string,z:number,a:string) {
+    //     super(x,y,z,a)
+    //   }
+    // }
+    // let userDetailsObject = new UserDetails(5,"david",26,"chennai");
+    //CHAPTER-12-END
     ///another file
     //start//Object Implicit Types
     // let person = {
