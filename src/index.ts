@@ -682,6 +682,43 @@
 
 
 
+//CHAPTER-15-START
+
+//DO SOMTHING
+//CHAPTER-15-END
+
+//CHAPTER-16-START
+
+// 1);
+// let x = (a:number[])=>{
+//   return a
+
+// };
+// let m = x([1,2,3,4,5,6,7,8,9,10])
+// console.log(m);
+
+// 2);
+// let x = <T> (a:T[])=>{
+//   return a
+
+// };
+// let m = x([1,2,{name:"david"},6,7,8,9,10])
+// console.log(m);
+// 3);
+// let x = <T> (a:T[])=>{
+//   return a
+
+// };
+// let m = x<any>([1,2,{name:"david"},6,7,8,9,10])
+// console.log(m);
+
+
+
+
+//CHAPTER16-END
+
+
+
 
 //another file//
 //START//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
@@ -726,12 +763,16 @@
 
 
   ///another file
+
+
   //start//Object Implicit Types
   // let person = {
   //   name: "John",
   //   age: 30
   // };
   //end
+
+
   //start//Object explicit types
   // Using an Interface
   // interface Person {
@@ -742,6 +783,8 @@
   //   name: "John",
   //   age: 30
   // };
+
+
   // Using a Type Alias
   // type Person = {
   //   name: string;
@@ -751,12 +794,15 @@
   //   name: "John",
   //   age: 30
   // };
+
   // Optional Properties
+
   // Using an Interface// start//
   // interface Person {
   //   name: string;
   //   age?: number; // age is optional
   // }
+
   // let person1: Person = {
   //   name: "John"
   // };
@@ -765,6 +811,8 @@
   //   age: 25
   // };
   // Using an Interface// end//
+
+
   // Using a Type Alias
   // type Person = {
   //   name: string;
@@ -777,7 +825,9 @@
   //   name: "Jane",
   //   age: 25
   // };
+
   // Combining All Concepts
+
   // Implicit type
   // let car = {
   //   make: "Toyota",
@@ -803,6 +853,11 @@
   //   color: "red"
   // };
   //end//Object explicit type
+
+
+
+
+
   //anohterFile
   //DIFFERENCE BTEWEEN ITERFACE AND TYPEALIAS
   // Interface:

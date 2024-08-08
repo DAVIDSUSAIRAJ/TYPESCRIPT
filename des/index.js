@@ -648,6 +648,29 @@
     //  console.log(person.name); //this is protected//this will throw error
     //  person.name ="DAVID"//it wil throw error// we can read only, but we can not change it
     ////CHAPTER-14-END
+    //CHAPTER-15-START
+    //DO SOMTHING
+    //CHAPTER-15-END
+    //CHAPTER-16-START
+    // 1);
+    // let x = (a:number[])=>{
+    //   return a
+    // };
+    // let m = x([1,2,3,4,5,6,7,8,9,10])
+    // console.log(m);
+    // 2);
+    // let x = <T> (a:T[])=>{
+    //   return a
+    // };
+    // let m = x([1,2,{name:"david"},6,7,8,9,10])
+    // console.log(m);
+    // 3);
+    // let x = <T> (a:T[])=>{
+    //   return a
+    // };
+    // let m = x<any>([1,2,{name:"david"},6,7,8,9,10])
+    // console.log(m);
+    //CHAPTER16-END
     //another file//
     //START//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
     //ABSTRACT CLASS
