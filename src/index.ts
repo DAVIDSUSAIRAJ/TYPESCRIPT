@@ -717,12 +717,147 @@
 
 //CHAPTER-15-END
 
-//CHAPTER-16-START
+//CHAPTER-16-START//GENERICS SECOND PART
+// 1);
+
+// let printArray = <AA>(arr:AA[])=>{
+//   console.log(arr);
+
+// };
+// printArray([1,2])
+
+// 2);GENERIC WITH INTERFACE
+//2.1)
+  //   interface Person{
+  //     name:string
+  //     age:number
+  //   } 
+  // let person:Person = {
+  //   name:"David",
+  //   age:28
+  // }
+//2.2)
+
+// interface  Person<NS,BS>{//i created one interface but  in 2 diffrent ways
+//   name:NS
+//   age:NS
+//   address:BS
+// } 
+// let person:Person<string,number,string> = {
+// name:"David",
+// age:28,
+// address:"123 Main St"//here string
+// }
+
+// let person:Person<string,boolean> = {
+//   name:"David",
+//   age:"28",//here String
+//   address:true//here boolean
+//   }
+
+// 2);GENERIC WITH FUNCTION INTERFACE
+// 2.1)
+  //  interface Math {
+  //      (a:number,b:number):number;
+  //  };
+
+  //  let addNumber:Math = (a:number,b:number)=>{
+  //   return a+b
+
+  //  };
+  //  let a = addNumber(1,2)
+
+  // 2.2)
+//    interface Math {
+//     (a:number,b:number):object;
+// };
+
+// let addNumber:Math = (a:number,b:number)=>{
+//  return  ({a,b})// object
+
+// };
+// let a = addNumber(1,2)
+// console.log(a);
+
+// 2.3)
+// interface Math {
+//   (a:number,b:number):object;
+// };
+
+// let addNumber:Math = (a:number,b:number)=>{
+// return  ([a,b])// object
+
+// };
+// let a = addNumber(1,2)
+// console.log(a);
+// 3); GENERIC WITH CLASS
+// 3.1)
+// class Person<T, N> {
+//   name: T;
+//   age: N;
+//   constructor(name: T, age: N) {
+//     this.name = name;
+//     this.age = age;
+//   }
+//   setName = (nammeee: T) => {
+//     this.name = nammeee;
+//   };
+// }
+
+// let person = new Person("David", 28);//note// if i did not use generic,it will automcatically take ANY(any) type;
+// console.log(person.name);
+// person.setName("John");
+// console.log(person.name);
+
+
+// 3.2.1)
+// class StatusCode<T> {
+//   code: T;
+
+//   constructor(sCode: T,) {
+//     this.code = sCode;
+//   }
+// }
+
+// let person = new StatusCode("400")//it will take any type
+
+// 3.2.2)//GENERIC CONSTRAINS
+// class StatusCode<T extends object> {//this type should be object, it won't allow primitive type NOTE: i extended within generic not in class
+//   code: T;
+
+//   constructor(sCode: T,) {
+//     this.code = sCode;
+//   }
+// }
+
+// let person = new StatusCode({code:"400"})//if i change to primitive type, it will throw error
+// console.log(person,"person")
 
 
 
 
 
+
+
+// 3.3)// i used generic with class
+// class Person<T, N,D> {
+//   name: T;
+//   age: N;
+//   degreeCompletion:D;
+//   constructor(name: T, age: N,degree:D) {
+//     this.name = name;
+//     this.age = age;
+//     this.degreeCompletion = degree;
+//   }
+//   setName = (nammeee: T) => {
+//     this.name = nammeee;
+//   };
+// }
+
+// let person = new Person<string,number,number>("David", 28,5);
+// console.log(person.name);
+// person.setName("John");
+// console.log(person.name);
 //CHAPTER16-END
 
 
