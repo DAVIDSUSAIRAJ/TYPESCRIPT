@@ -648,28 +648,35 @@
     //  console.log(person.name); //this is protected//this will throw error
     //  person.name ="DAVID"//it wil throw error// we can read only, but we can not change it
     ////CHAPTER-14-END
-    //CHAPTER-15-START
-    //DO SOMTHING
+    //CHAPTER-15-START//GENERICS FIRST PART
+    // 1);
+    // let toArray =  (x:any,y:any,z:any)=>{
+    //   return [x,y,z]
+    // };
+    // let arrStr = toArray ("1","2","3")
+    // let arrNo = toArray (1,2,3)
+    // console.log(arrStr);
+    // console.log(arrNo);
+    // 2);//generic//string or no
+    // let toArray = <T> (x:T,y:T,z:T)=>{
+    //   return [x,y,z]
+    // };
+    // let arr = toArray ("1","2","3")//or number
+    // console.log(arr);
+    // 3);//multiple type with generics and focus the generic params
+    // let toArray = <T,NN> (x:T,y:NN,z:NN)=>{
+    //   return [x,y,z]
+    // };
+    // let arr = toArray <any,number>({name:'adk'},2,3)
+    // console.log(arr);
+    //4);// types with generics and focus the generic params
+    // let toArray = <T,NN> (x:T,y:NN,z:NN,a:string[],b:boolean)=>{
+    //   return [x,y,z,a,b]
+    // };
+    // let arr = toArray <any,number>({name:'adk'},2,3,["David"],true)
+    // console.log(arr);
     //CHAPTER-15-END
     //CHAPTER-16-START
-    // 1);
-    // let x = (a:number[])=>{
-    //   return a
-    // };
-    // let m = x([1,2,3,4,5,6,7,8,9,10])
-    // console.log(m);
-    // 2);
-    // let x = <T> (a:T[])=>{
-    //   return a
-    // };
-    // let m = x([1,2,{name:"david"},6,7,8,9,10])
-    // console.log(m);
-    // 3);
-    // let x = <T> (a:T[])=>{
-    //   return a
-    // };
-    // let m = x<any>([1,2,{name:"david"},6,7,8,9,10])
-    // console.log(m);
     //CHAPTER16-END
     //another file//
     //START//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
