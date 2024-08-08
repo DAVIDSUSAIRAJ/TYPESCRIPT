@@ -551,6 +551,103 @@
     // employee.getDetails1();
     // employee.getDetails2(5);
     //CHAPTER-13-END
+    //CHAPTER-14-START
+    // DATA MODIFIERS
+    // PUBLIC-3
+    // PROTECTED-2
+    // //PRIVATE-1
+    // // READONLY- ONE TIME ONLY ASSINED WITH CONSTRUCTOR
+    //DATA MODIFIERS START
+    // 1);
+    //  class Person {
+    //   name: string;
+    //   constructor(name: string) {
+    //     this.name = name;
+    //   }
+    //  first (){
+    //   console.log(this.name,"first")
+    //  }
+    // }
+    // class Employee extends Person {
+    // getName(): string {//this is also method
+    //   return this.name;
+    // }
+    // getName1 = (): string =>{//this is also method//commonly used
+    //   return this.name;
+    // }
+    // }
+    // let person = new Employee("John");
+    // console.log(person.name); // Output: John//public
+    // person.first()// // Output: John//public
+    // console.log(person.getName())// // Output: John//public
+    // 2);producted
+    //  class Person {
+    //    protected name: string;
+    //   constructor(name: string) {
+    //     this.name = name;
+    //   }
+    //  first (){
+    //   console.log(this.name,"first")
+    //  }
+    // }
+    // class Employee extends Person {
+    // getName(): string {//this is also method
+    //   return this.name;
+    // }
+    // getName1 = (): string =>{//this is also method//commonly used
+    //   return this.name;
+    // }
+    // }
+    // let person = new Employee("John");
+    // person.first()// // Output: John//public
+    // console.log(person.getName())// // Output: John//public
+    // console.log(person.name); // Output:this is protected//this will throw error
+    // 3);private
+    //  class Person {
+    //    private name: string;
+    //   constructor(name: string) {
+    //     this.name = name;
+    //   }
+    //  first (){
+    //   console.log(this.name,"first")
+    //  }
+    // }
+    // class Employee extends Person {
+    // getName(): string {//this is also method
+    //   return this.name;
+    // }
+    // getName1 = (): string =>{//this is also method//commonly used
+    //   return this.name;
+    // }
+    // }
+    // let person = new Employee("John");
+    // person.first()// // Output: John//public
+    // console.log(person.getName())//this is protected//this will throw error
+    // console.log(person.name); //this is protected//this will throw error
+    // 4);readOnly// this is not data modifier// this is keyword
+    //   class Person {
+    //     readonly name: string;
+    //    constructor(name: string) {
+    //      this.name = name;
+    //    }
+    //   first (){
+    //    console.log(this.name,"first")
+    //   }
+    //  }
+    //  class Employee extends Person {
+    //  getName(): string {//this is also method
+    //    return this.name;
+    //  }
+    //  getName1 = (): string =>{//this is also method//commonly used
+    //    return this.name;
+    //  }
+    //  }
+    //  let person = new Employee("John");
+    //  person.first()// // Output: John//public
+    //  console.log(person.getName())//this is protected//this will throw error
+    //  console.log(person.name); //this is protected//this will throw error
+    //  person.name ="DAVID"//it wil throw error// we can read only, but we can not change it
+    ////CHAPTER-14-END
     //another file//
     //START//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
     //ABSTRACT CLASS
@@ -584,11 +681,6 @@
     // const myDog = new Dog();
     // myDog.makeSound(); // Output: Bark
     //END//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
-    // DATA MODIFIERS
-    // PUBLIC-3
-    // PROTECTED-2
-    // //PRIVATE-1
-    // // READONLY- ONE TIME ONLY ASSINED WITH CONSTRUCTOR
     ///another file
     //start//Object Implicit Types
     // let person = {
