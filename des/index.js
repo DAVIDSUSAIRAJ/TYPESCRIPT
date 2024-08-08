@@ -2,7 +2,7 @@
 // var s = JS+additional functionalities
 (function () {
     //primitive data type
-    //string , nmber , boolean ,null,undefined
+    //string , nmber , boolean ,null,undefined,Symbol,BigInt
     //CHAPTER-1
     //start//
     //start//primitive data type implicit//JS
@@ -51,8 +51,6 @@
     //     { name: "Alice", age: 25 },
     //     { name: "Bob", age: 30 }
     //   ];
-    // Trying to add a new element
-    // readonlyArray.push("David"); // This line will cause a TypeError in strict mode
     //end//primitive data type Implicit  with array//JS
     //start//primitive data type explicit  with array//TS//
     //   let names: string[] = ["Alice", "Bob", "Charlie"];
@@ -62,7 +60,7 @@
     //   let mixed: (number | string | boolean)[] = [1, true];
     //   let exampleTuple: [number, string, boolean] = [1, "two", false]; //tuble concept
     //start// initialize then push method in TS
-    //   let userNames: string[] = [];
+    //   let userNames: string[] = [];//here string only will accept
     //   userNames.push("hai");
     //   console.log(userNames);
     //end// initialize then push method in TS
