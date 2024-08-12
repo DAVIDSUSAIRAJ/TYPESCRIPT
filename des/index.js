@@ -819,6 +819,7 @@
     // const myDog = new Dog();
     // myDog.makeSound(); // Output: Bark
     //END//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
+    console.log("Davidsusairaj");
     ///another file
     //start//Object Implicit Types
     // let person = {

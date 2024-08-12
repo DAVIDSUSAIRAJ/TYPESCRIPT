@@ -968,7 +968,7 @@
 // myDog.makeSound(); // Output: Bark
 
 //END//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
-
+console.log("Davidsusairaj")
 
   ///another file
 
@@ -1061,6 +1061,48 @@
   //   color: "red"
   // };
   //end//Object explicit type
+
+  //anotherFile//abastract and interface
+  
+// console.log("hell0d");
+// abstract class Animal {
+//    dogName:string = "david"
+//    constructor(Doggggeee:string){
+//        this.dogName = Doggggeee
+//    }
+//    abstract eat():void // New abstract method added
+//    sleep():string {
+//        return this.dogName;
+//    }
+//    ; // New abstract method added
+// }
+// class Dog extends Animal {
+//    constructor(){
+//        super("DAvid")
+//    }
+//    makeSound() {
+//        console.log('Bark!');
+//    }
+//    move() {
+//        console.log('Running...');
+//    }
+//    eat() {
+//        console.log("eataa");
+//    }
+// }
+// let dog = new Dog();
+// dog.makeSound();
+
+// dog.move();
+// dog.eat();
+// let mp = dog.sleep();
+// console.log(mp,"mpppp")
+
+
+
+//interface is a strict type ex: if i use, 5 method, i will we use must(like ===)
+// abstract is as loosly: the above example.if we use abstract in parent(ex:eat) it chlid method, it should be called.
+
 
 
 
