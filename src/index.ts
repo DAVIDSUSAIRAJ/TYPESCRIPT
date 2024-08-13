@@ -933,6 +933,22 @@
 
 
 
+//CHAPTER-17-START
+// Map in TypeScript
+// const map = new Map<string, number>();
+// map.set("a", 1);
+// map.set("b", 2);
+
+// Set in TypeScript
+// const set = new Set<number>();
+// set.add(1);
+// set.add(2);
+// set.add(2); // won't be added because 2 is already in the set
+
+//CHAPTER-17-END
+
+
+
 
 //another file//
 //START//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
