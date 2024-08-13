@@ -211,6 +211,16 @@
   // };
   //END//TYPESCRIPT OBJECTS
   //CAHPTER-3_end
+
+
+
+
+
+
+
+
+
+
   //CHAPTER_4-START
   //union types- if more than one type, we used unoion types
   // OR SYMBOL like: here we use pipe symbol(|)
@@ -235,6 +245,12 @@
   // unoionArray.push(null)// it will throw an error
   // console.log(unoionArray,"unionArray")
   //CHAPTER_4-END
+
+
+
+
+
+
   //CHAPTER_5_START
   //ANY TYPE- IT IS DYNAMIC TYPE
   //basic type
@@ -267,6 +283,15 @@
   //   age: "Gajendaran",
   // };
   //CHAPTER_5_END
+
+
+
+
+
+
+
+
+
   //CHAPTER-6-START
   //implicit
   //  let func  = ()=>{
@@ -328,6 +353,12 @@
   //  restParamfunction(1,2,3,4,5);
   //explicit//end
   //CHAPTER-6-END
+
+
+
+
+
+
   //CHAPTER-7-START
   //tuples or typed Array
   //array//implicit
@@ -349,6 +380,12 @@
   // let [name,age,isAlive] = userNamedTuple;
   // console.log(name,age,isAlive,"userNamedTuple")
   //CHAPTER-7-END
+
+
+
+
+
+
   //CHAPTER-8-START
   //TYPE ALIAS
   // type UserName = string;
@@ -379,6 +416,13 @@
   //  type NameAndAge = [name:string,age:number]
   //  let nameAndAge:NameAndAge = ["david",28]
   //CHAPTER-8-END
+
+
+
+
+
+
+
   //CHAPTER-9-START//
   //TYPE CASTING with UNKNOWN TYPE// as or <>//as only high priority
   // let firstName:unknown = "string"
@@ -392,6 +436,11 @@
   // let val = inputElement.value// error will throw without as keyword
   // console.log(val,"val")
   //CHAPTER-9-END
+
+
+
+
+
   //CHAPTER-10-START
   //ENUM-GROUP OF CONSTANT
   // enum - number
@@ -440,6 +489,13 @@
   //  }
   //  console.log(StatusCode.BAD_,"StatusCode.BAD_")
   //CHAPTER-10-END
+
+
+
+
+
+
+
   //CHAPTER-11-START
   //INTERFACE-OOP-ONLY WORK WITH OBJECTS CONCEPT-SET OF RULES WE NEED TO DEFINED//
   // interface Person {
@@ -478,6 +534,16 @@
   //   errrorStatuscode = 401
   // inferface StrOrNo = string | number   //it will throw error, bcause interface is not a type
   //CHAPTER-11-END
+
+
+
+
+
+
+
+
+
+
   //CHAPTER-12-START
   //CLASS
   //simple class
@@ -546,6 +612,13 @@
   // }
   // let userDetailsObject = new UserDetails(5,"david",26,"chennai");
   //CHAPTER-12-END
+
+
+
+
+
+
+
 
 //CHAPTER-13-START
 //ABSTRACT CLASS-INCOMPLETE CLASS
@@ -629,6 +702,20 @@
 // employee.getDetails2(5);
 
 //CHAPTER-13-END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //CHAPTER-14-START
 // DATA MODIFIERS
@@ -744,6 +831,18 @@
 
 
 ////CHAPTER-14-END
+
+
+
+
+
+
+
+
+
+
+
+
 //CHAPTER-15-START//GENERICS FIRST PART
 // 1);
 // let toArray =  (x:any,y:any,z:any)=>{
@@ -781,6 +880,15 @@
 
 
 //CHAPTER-15-END
+
+
+
+
+
+
+
+
+
 
 //CHAPTER-16-START//GENERICS SECOND PART
 // 1);
@@ -933,6 +1041,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 //CHAPTER-17-START
 // Map in TypeScript
 // const map = new Map<string, number>();
@@ -946,6 +1063,8 @@
 // set.add(2); // won't be added because 2 is already in the set
 
 //CHAPTER-17-END
+
+
 
 
 
@@ -992,8 +1111,16 @@
 //END//WHAT IS THE DIFFEREENCE BETWEEN ABSTRACT CLASS AND INTERFACE
 console.log("Davidsusairaj")
 
-  ///another file
 
+
+
+
+
+
+
+
+
+  ///another file
 
   //start//Object Implicit Types
   // let person = {
@@ -1084,6 +1211,19 @@ console.log("Davidsusairaj")
   // };
   //end//Object explicit type
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   //anotherFile//abastract and interface
   
 // console.log("hell0d");
@@ -1130,6 +1270,11 @@ console.log("Davidsusairaj")
 
 
 
+
+
+
+
+
   //anohterFile
   //DIFFERENCE BTEWEEN ITERFACE AND TYPEALIAS
   // Interface:
@@ -1166,7 +1311,9 @@ console.log("Davidsusairaj")
   //     name: "John",
   //     age: 30
   //   };
+
   // Type Alias: Type aliases cannot be merged. Each type alias must be unique.
+  
   // type Person = {
   //     name: string;
   //   };
