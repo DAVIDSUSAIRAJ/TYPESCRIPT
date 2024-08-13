@@ -790,6 +790,12 @@
 
 // };
 // printArray([1,2])
+// 1.2)
+// let printArray = <AA>(arr:AA)=>{
+//   console.log(arr);
+
+// };
+// printArray<object>([1,2])
 
 // 2);GENERIC WITH INTERFACE
 //2.1)
