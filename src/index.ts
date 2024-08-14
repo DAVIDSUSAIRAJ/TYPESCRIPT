@@ -425,6 +425,8 @@
 
   //CHAPTER-9-START//
   //TYPE CASTING with UNKNOWN TYPE// as or <>//as only high priority
+
+
   // let firstName:unknown = "string"
   //  console.log(firstName.length())//it will throw the compile error, then i changed the type not value
   //  let getLen = firstName as string;
@@ -435,6 +437,45 @@
   // let inputElement = document.querySelector("input") as HTMLInputElement
   // let val = inputElement.value// error will throw without as keyword
   // console.log(val,"val")
+
+
+  // When to Use the as Keyword:
+  // Narrowing Down Union Types:
+
+  // function getLength(input: string | number): number {
+  //   if ((input as string).length !== undefined) {
+  //     return (input as string).length; // Treating input as a string
+  //   } else {
+  //     return input.toString().length;
+  //   }
+  // }
+
+  // Working with DOM Elements:
+
+//   const inputElement = document.getElementById('my-input') as HTMLInputElement;
+// inputElement.value = 'Hello, TypeScript!'; // Now TypeScript knows inputElement has a `value` property
+
+
+// Casting Types:
+// let someValue: unknown = "This is a string";
+// let strLength: number = (someValue as string).length; // Asserting that someValue is a string
+
+// Handling any Type:
+// let value: any = "This could be anything";
+// let valueLength: number = (value as string).length; // Assuming value is a string
+
+// Type Assertions with Custom Types:
+// interface Person {
+//   name: string;
+//   age: number;
+// }
+
+// let person = {} as Person;
+// person.name = "John";
+// person.age = 30;
+
+  
+
   //CHAPTER-9-END
 
 
