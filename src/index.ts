@@ -1,5 +1,36 @@
 "use strict";
 // var s = JS+additional functionalities
+
+
+
+//ANOTHER TOPIC//READ EXCEL FILE, WITH MERGE CELLS
+// const arrayBuffer = await excelBlob.arrayBuffer();
+// const workbook = XLSX.read(arrayBuffer, { type: 'array' });
+// const sheetName = workbook.SheetNames[0];
+// const worksheet = workbook.Sheets[sheetName];
+// const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+// const merges = worksheet['!merges'] || [];
+// const maxLength = Math.max(...jsonData.map(row => row.length));
+// const normalizedData = jsonData.map(row => {
+//   while (row.length < maxLength) {
+//     row.push('');
+//   }
+//   return row;
+// });
+//ANOTHER TOPIC//READ EXCEL FILE, WITH MERGE CELLS
+
+
+
+
+
+
+
+
+
+
+
+
+
 (function () {
 
 
